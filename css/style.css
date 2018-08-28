@@ -8,7 +8,10 @@
 .nav-logo {
   width: 64px;
   float: left;
-  margin: 5% 0 5% 5%;
+}
+
+.logo-link {
+  margin: 5px 10px 15px;
 }
 
 .nav-link {
@@ -16,23 +19,31 @@
   font-size: 16px;
 }
 
-.nav-item .active {
-  text-decoration: underline;
+.nav-item.active > a {
+  border-bottom: 2px solid;
 }
 
 .main-banner {
   width: 100%;
 }
 
-#description {
-  padding-top: 50px;
-  padding-bottom: 30px;
-  clear: both;
+.container {
   text-align: center;
+}
+
+#description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  clear: both;
 }
 
 #description > h3 {
   margin-bottom: 30px;
+}
+
+#contact > .left-center-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .left-center-block {
@@ -90,8 +101,8 @@
 }
 
 #map {
-  margin-bottom: 20px;
-  text-align: center;
+  border: 0;
+  margin-bottom: 50px;
 }
 
 #footer {
